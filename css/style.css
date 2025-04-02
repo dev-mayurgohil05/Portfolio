@@ -890,7 +890,21 @@ textarea::-webkit-input-placeholder {
 	max-width: 110px;
 }
 
+.img-gallery a{
+        width: 100%;
+    height: 100%;
+}
+.img-gallery a img{
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    background-color: transparent;
+    /* width: auto; */
+    margin-bottom: 15px;
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
 
+}
 /* ==================================================================
 	12.0 Counter
 ================================================================== */
